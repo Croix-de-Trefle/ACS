@@ -9,15 +9,15 @@ $tile-border-radius: 3px;
 
 $mobile-threshold: $field-width + 20px;
 
-$text-color: #776E65;
-$bright-text-color: #f9f6f2;
+$text-color: #d31f43;
+$bright-text-color: #E58890;
 
-$tile-color: #eee4da;
-$tile-gold-color: #edc22e;
+$tile-color: #d31f43;
+$tile-gold-color: black;
 $tile-gold-glow-color: lighten($tile-gold-color, 15%);
 
 $game-container-margin-top: 40px;
-$game-container-background: #bbada0;
+$game-container-background: #343433;
 
 $transition-speed: 100ms;
 
@@ -25,7 +25,7 @@ html, body {
   margin: 0;
   padding: 0;
 
-  background: #faf8ef;
+  background: #343433;
   color: $text-color;
   font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 18px;
@@ -95,7 +95,7 @@ h1.title {
   .score-addition {
     position: absolute;
     right: 30px;
-    color: red;
+    color: white;
     font-size: $height;
     line-height: $height;
     font-weight: bold;
